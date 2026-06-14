@@ -1,0 +1,15 @@
+﻿# 排除 Python 缓存
+__pycache__/
+*.pyc
+
+# 排除可编辑安装生成的临时文件
+*.egg-info/
+.eggs/
+
+# 排除量化实验室的数据和日志
+data/
+logs/
+outputs/
+
+# 排除 VS Code 的本地配置
+.vscode/
